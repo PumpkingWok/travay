@@ -70,6 +70,14 @@
   "App.profile.managingJobs": "Lis tout djòb w ap jere.",
   "App.profile.evaluatingJobs": "Lis tout ou te mete tankou yon evalyatè.",
   "App.profile.sponsoringJobs": "Lis tout travay ou te patwone.",
+  "App.profile.incompleteJobsTitle":"Incomplete Jobs Kreyol",
+  "App.profile.completedJobsTitle":"Completed Jobs Kreyol",
+  "App.profile.canceledJobsTitle":"Canceled Jobs Kreyol",
+  "App.profile.managingJobsTitle":"Jobs You're Managing Kreyol",
+  "App.profile.evaluatingJobsTitle":"Jobs You're Evaluating Kreyol",
+  "App.profile.sponsoringJobsTitle":"Jobs You've Sponsored kreyol",
+  "App.profile.countryCodeTitle":"Country Code Kreyol",
+  "App.profile.numberTitle":"Number Kreyol",
   "App.job.evaluation": "Evaliyason",
   "App.job.cityOfWork": "Vil kote travay la dwe fèt",
   "App.job.claim": "Reklamasyon",
@@ -148,6 +156,10 @@
   "App.createJob.salaryPayoutDisclaimer": "Sonje: (1) Salè ou lis anwo a ap fèt dedui ak peye travayè a respire ki baze sou mwa yo total ou te tape pi wo a. (2) Nou kolekte 2% kantite lajan total salè. Ki baze sou salè ou te antre anlè travayè a nan total pral resevwa apeprè: ",
   "App.createJob.pageDescription": "Itilize fòm ki anba a pou kreye yon travay 6 mwa oswa 12 mwa.",
   "App.createJob.requirementInstructions": "Tanpri ajoute kondisyon ou yo nan lòd pou travay la yo dwe konsidere kòm konplè. Add yon egzijans, epi klike sou Add Requirement, pou ajoute lòt kondisyon.",
+  "App.createJob.JobDescriptionInForm": "Job Description Kreyol",
+  "App.createJob.requirementInForm": "Requirement for Job Kreyol",
+  "App.createJob.nrMonthsInForm": "Number of Months of Employment Kreyol",
+  "App.createJob.totalFoundingInForm": "Total Funding (Salary) for Job in USD Kreyol",
   "App.footer.userGuide": "Gid Itilizatè",
   "App.footer.getStartedGuide": "Ann kòmanse",
   "App.footer.codeOfConduct": "Kòd Konduit",
@@ -198,5 +210,23 @@
   "components.register.terms": "I accept the <a href=\"/\">Terms and Conditions</a>",
   "components.register.title": "Enskri",
   "components.truncate.showLess": "Montre mwens",
-  "components.truncate.showMore": "Montre plis"
+  "components.truncate.showMore": "Montre plis",
+  "domainOptions": [
+    {"label": "Choose a Domain Kreyol", "value": null},
+    {"label": "Community Kreyol", "value": "community"},
+    {"label": "Education Kreyol", "value": "education"},
+    {"label": "Environment Kreyol", "value": "environment"}
+  ],
+  "skillOptions": [
+    {"label": "Choose Top Desired Skill Kreyol", "value": null},
+    {"label": "Administrative Kreyol", "value": "administrative"},
+    {"label": "Engineering Kreyol", "value": "engineering"},
+    {"label": "Labor Kreyol", "value": "labor"},
+    {"label": "Teaching Kreyol", "value": "teaching"}
+  ],
+  "countryOptions": [
+    {"label": "Choose a Country Kreyol", "value": null},
+    {"label": "Haiti Kreyol", "value": "haiti"},
+    {"label": "USA Kreyol", "value": "us"}
+  ]
 }

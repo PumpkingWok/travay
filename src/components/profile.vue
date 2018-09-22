@@ -38,11 +38,11 @@
 
                   <vue-grid-row>
                     <vue-grid-item>
-                      <vue-input type="text" name="country" id="country" placeholder="Country Code" readonly
+                      <vue-input type="text" name="country" id="country" :placeholder="$t('App.profile.countryCodeTitle')" readonly
                                  v-model="form.country"/>
                     </vue-grid-item>
                     <vue-grid-item>
-                      <vue-input type="text" name="number" id="number" placeholder="Number" required
+                      <vue-input type="text" name="number" id="number" :placeholder="$t('App.profile.numberTitle')" required
                                  v-model="form.number"/>
                     </vue-grid-item>
                   </vue-grid-row>
@@ -87,7 +87,7 @@
       <vue-grid-row>
         <vue-grid-item>
           <vue-accordion multiple>
-            <vue-accordion-item title="Incomplete Jobs">
+            <vue-accordion-item :title="$t('App.profile.incompleteJobsTitle')">
               {{ $t('App.profile.incompleteJobs' /* List of all jobs that are still open. */) }}
               <div
                 v-for="(item, index) in incompleteJobs"
@@ -96,7 +96,7 @@
               </div>
             </vue-accordion-item>
 
-            <vue-accordion-item title="Completed Jobs">
+            <vue-accordion-item :title="$t('App.profile.completedJobsTitle')">
               {{ $t('App.profile.completedJobs' /* List of all jobs that have all been completed and closed. */) }}
               <div
                 v-for="(item, index) in completedJobs"
@@ -105,7 +105,7 @@
               </div>
             </vue-accordion-item>
 
-            <vue-accordion-item title="Canceled Jobs">
+            <vue-accordion-item :title="$t('App.profile.canceledJobsTitle')">
               {{ $t('App.profile.canceledJobs' /* List of all jobs that have all been canceled. */) }}
               <div
                 v-for="(item, index) in canceledJobs"
@@ -114,7 +114,7 @@
               </div>
             </vue-accordion-item>
 
-            <vue-accordion-item title="Jobs You're Managing">
+            <vue-accordion-item :title="$t('App.profile.managingJobsTitle')">
               {{ $t('App.profile.managingJobs' /* List of all jobs you are managing. */) }}
               <div
                 v-for="(item, index) in managingJobs"
@@ -123,7 +123,7 @@
               </div>
             </vue-accordion-item>
 
-            <vue-accordion-item title="Jobs You're Evaluating">
+            <vue-accordion-item :title="$t('App.profile.evaluatingJobsTitle')">
               {{ $t('App.profile.evaluatingJobs' /* List of all jobs you are listed as the Evaluator. */) }}
               <div
                 v-for="(item, index) in evaluatingJobs"
@@ -135,7 +135,7 @@
               </template>
             </vue-accordion-item>
 
-            <vue-accordion-item title="Jobs You've Sponsored">
+            <vue-accordion-item :title="$t('App.profile.sponsoringJobsTitle')">
               {{ $t('App.profile.sponsoringJobs' /* List of all jobs you've sponsored. */) }}
               <div
                 v-for="(item, index) in sponsored"

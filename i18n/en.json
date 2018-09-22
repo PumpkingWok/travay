@@ -70,6 +70,14 @@
   "App.profile.managingJobs": "List of all jobs you are managing.",
   "App.profile.evaluatingJobs": "List of all jobs you are listed as the Evaluator.",
   "App.profile.sponsoringJobs": "List of all jobs you've sponsored.",
+  "App.profile.incompleteJobsTitle":"Incomplete Jobs",
+  "App.profile.completedJobsTitle":"Completed Jobs",
+  "App.profile.canceledJobsTitle":"Canceled Jobs",
+  "App.profile.managingJobsTitle":"Jobs You're Managing",
+  "App.profile.evaluatingJobsTitle":"Jobs You're Evaluating",
+  "App.profile.sponsoringJobsTitle":"Jobs You've Sponsored",
+  "App.profile.countryCodeTitle":"Country Code",
+  "App.profile.numberTitle":"Number",
   "App.job.evaluation": "Evaluation",
   "App.job.cityOfWork": "City Where Work is to be Performed",
   "App.job.evaluationDescription": "After a job is claimed an evaluator must be assigned. An evaluator confirms the completion of work. If assigned as an evaluator the below area will show additional information.",
@@ -148,6 +156,10 @@
   "App.createJob.salaryPayoutDisclaimer": "Remember: (1) The salary you list above will be deducted and paid to the worker evenly based on the total months you have typed above. (2) We collect 2% of the total salary amount. Based on the salary you have entered above the worker in total will receive approximately: ",
   "App.createJob.pageDescription": "Use the form below to create a 6-month or 12-month job.",
   "App.createJob.requirementInstructions": "Please add your requirements in order for the job to be considered as complete. Add one requirement, then click Add Requirement, to add additional requirements.",
+  "App.createJob.JobDescriptionInForm": "Job Description",
+  "App.createJob.requirementInForm": "Requirement for Job to be Complete",
+  "App.createJob.nrMonthsInForm": "Number of Months of Employment",
+  "App.createJob.totalFoundingInForm": "Total Funding (Salary) for Job in USD",
   "App.footer.userGuide": "User Guide",
   "App.footer.getStartedGuide": "Get Started",
   "App.footer.codeOfConduct": "Code of Conduct",
@@ -197,5 +209,23 @@
   "components.register.terms": "I accept the <a href=\"/\">Terms and Conditions</a>",
   "components.register.title": "Register",
   "components.truncate.showLess": "Show less",
-  "components.truncate.showMore": "Show more"
+  "components.truncate.showMore": "Show more",
+  "domainOptions": [
+    {"label": "Choose a Domain", "value": null},
+    {"label": "Community", "value": "community"},
+    {"label": "Education", "value": "education"},
+    {"label": "Environment", "value": "environment"}
+  ],
+  "skillOptions": [
+    {"label": "Choose Top Desired Skill", "value": null},
+    {"label": "Administrative", "value": "administrative"},
+    {"label": "Engineering", "value": "engineering"},
+    {"label": "Labor", "value": "labor"},
+    {"label": "Teaching", "value": "teaching"}
+  ],
+  "countryOptions": [
+    {"label": "Choose a Country", "value": null},
+    {"label": "Haiti", "value": "haiti"},
+    {"label": "USA", "value": "us"}
+  ]
 }
