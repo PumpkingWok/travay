@@ -216,7 +216,7 @@
                 <vue-panel-footer>
                   <div v-if="job.role">
                     <a @click.prevent.stop="e => sponsorJob(job.taskId)">
-                      <vue-button :v-userRole.canSponsor="{role: job.role}"
+                      <vue-button v-userRole.canSponsor="{role: job.role}"
                                   style="color: white !important;"
                                   accent>
                         {{ $t('App.job.sponsorJobButton' /* Sponsor This Job */) }}
@@ -280,7 +280,7 @@
                 <!-- UPLOAD IMAGE BUTTON -->
                 <vue-panel-footer>
                     <a @click.prevent="uploadProofOfWork()">
-                      <vue-button :v-userRole.worker="{cb: uploadFile, role: job.role}"
+                      <vue-button v-userRole.worker="{cb: uploadFile, role: job.role}"
                                   style="color: white;"
                                   accent>
                       {{ $t('App.job.uploadFileButton' /* Save Uploaded Images */) }}
@@ -294,7 +294,7 @@
                   <!--</vue-button>-->
                   <br><br>
                     <a @click="markJobComplete">
-                      <vue-button :v-userRole.worker="{role: job.role}"
+                      <vue-button v-userRole.worker="{role: job.role}"
                                   style="color: white;"
                                   warn>
                       {{ $t('App.job.markJobComplete' /* Job is Done */) }}
@@ -309,7 +309,7 @@
                     }}</p>
                   <br>
                     <a @click="setEvaluator()" style="color: white;">
-                      <vue-button :v-userRole.signedIn.canBecomeEvaluator="{role: job.role}"
+                      <vue-button v-userRole.signedIn.canBecomeEvaluator="{role: job.role}"
                                   style="color: white;"
                                   primary>
                       {{ $t('App.job.becomeEvaluatorForJob' /* Become the Evaluator */) }}
@@ -317,7 +317,7 @@
                     </a>
                   <br><br>
                   <a @click="evaluateJobAsCompletedSucessfully()">
-                    <vue-button :v-userRole.signedIn.evaluator="{role: job.role}"
+                    <vue-button v-userRole.signedIn.evaluator="{role: job.role}"
                                 style="color: white;"
                                 primary>
                       {{ $t('App.job.evaluateJobAsSuccess' /* Approve Work */) }}
